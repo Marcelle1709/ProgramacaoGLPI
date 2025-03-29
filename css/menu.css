@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc;
+}
+main{
+    width: 80%;
+    height: 80vh;
+    background-color: #c5dae7;
+    margin-left: 10%;
+    margin-top: 10vh;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
+main header{
+    width: 100%;
+    height: 14vh;
+    background-color: c5dae7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main header img{
+    height: 14vh;
+}
+main nav{
+    width: 100%;
+    height: 5vh;
+    background-color:hsl(203, 50%, 87%);
+}
+main nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+main nav ul li{
+   list-style: none;
+}
+main nav ul li a{
+    padding: 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    text-decoration: none;
+    color:#ffffff;
+    transition: all 1s;
+}
+main nav ul li a:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-right: 2%;
+    border-bottom: 2px solid hsl(0, 0%, 100%);
+}
+main section{
+    width: 100%;
+    height: 56vh;
+    background-color: #ffffffe5;
+}
+main footer{
+    width: 100%;
+    height: 5vh;
+    background-color: hsl(203, 50%, 87%);
+}   
+footer p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: hsl(0, 0%, 0%);
+}
